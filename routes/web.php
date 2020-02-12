@@ -29,3 +29,8 @@ Route::post('/askquestion',[
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/questions/{id}',[
+    'as' => 'questions.question',
+    'uses' => 'QuestionsController@Index'
+]);

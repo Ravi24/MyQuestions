@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
-@section('page_style')
-    <link rel="stylesheet" href="{{asset('css/wmd.css')}}">
-@endsection
+
 
 @section('content')
 <div class="container">
@@ -67,7 +65,4 @@
 
     </div>
 </div>
-@endsection
-@section('page_scripts')
-    <script src="{{asset('js/wmd.js')}}" type="text/javascript"></script>
 @endsection
